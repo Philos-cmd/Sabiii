@@ -25,7 +25,7 @@ function selectOption(option) {
 
         // Grow Yes button
         const size = parseFloat(getComputedStyle(yesBtn).fontSize);
-        yesBtn.style.fontSize = (size * 1.35) + 'px';
+        yesBtn.style.fontSize = (size * 1.8) + 'px';
 
         const messages = [
             "What if I begged :((",
@@ -136,3 +136,4 @@ I hope you can be patient with me too. I know I can be dumb sometimes, and not a
         }, 2500);
     };
 }
+
